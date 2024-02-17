@@ -1,0 +1,118 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.7rem 10%;
+    height: 6.5rem;
+    background-color: #202020;
+    box-shadow: 0 1px 4px #191818;
+}
+
+.header .logo {
+    font-size: 1.9rem;
+    font-weight: 800;
+    text-decoration: none;
+    color: #fff;
+}
+
+.header .logo:hover {
+    color: #239e66;
+    transition: all 0.2s linear;
+}
+
+.header .logo i {
+    font-size: 2.2rem;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul li {
+    margin-left: 2.5rem;
+}
+
+.navbar ul li a {
+    font-size: 1.57rem;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 0.04rem;
+    transition: 0.2s;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover {
+    color: #239e66;
+    border-bottom: 0.2rem solid #239e66;
+    padding: 0.5rem 0;
+}
+
+#menu {
+    font-size: 3rem;
+    cursor: pointer;
+    color: rgb(35, 158, 102);
+    display: none;
+}
+
+@media (max-width:767px) {
+    #menu {
+        display: block;
+    }
+
+    .navbar {
+        position: fixed;
+        top: 6.5rem;
+        right: -120%;
+        width: 75%;
+        height: 100%;
+        text-align: left;
+        align-items: flex-start;
+        background-color: #239e66;
+    }
+
+    .navbar ul {
+        flex-flow: column;
+        padding: 1rem;
+    }
+
+    .navbar ul li {
+        text-align: center;
+        width: 100%;
+        margin: 1rem 0;
+        border-radius: 0.5rem;
+        width: 26rem;
+    }
+
+    .navbar ul li a {
+        display: block;
+        padding: 1rem;
+        text-align: left;
+        color: #fff;
+        font-size: 2rem;
+    }
+
+    .navbar ul li a.active,
+    .navbar ul li a:hover {
+        padding: 1rem;
+        color: #fff;
+        border-radius: 0.5rem;
+        border-bottom: 0.5rem solid #fff;
+    }
+
+    .fa-times {
+        transform: rotate(180deg);
+    }
+
+    .navbar.nav-toggle {
+        right: 0;
+    }
+}
