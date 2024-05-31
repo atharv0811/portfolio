@@ -31,28 +31,28 @@ const Home = () => {
                     <div className="socials">
                         <ul className="social-icons">
                             <li>
-                                <a className="linkedin" aria-label="LinkedIn" href="" target="_blank">
+                                <a className="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/atharv-karnekar-1932b7201/" target="_blank">
                                     <i className="fab fa-linkedin"></i>
                                 </a>
                             </li>
                             <li>
-                                <a className="github" aria-label="GitHub" href="" target="_blank">
+                                <a className="github" aria-label="GitHub" href="https://github.com/atharv0811" target="_blank">
                                     <i className="fab fa-github"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="" target="blank">
-                                    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="abhishek_9036" height="30" width="40" />
+                                <a href="https://leetcode.com/atharv_karnekar/" target="_blank">
+                                    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="atharv_karnekar" height="30" width="40" />
                                 </a>
                             </li>
                             <li>
-                                <a href="" target="blank">
-                                    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="https://auth.geeksforgeeks.org/user/abhishekchauhan9036/profile" height="30" width="40" />
+                                <a href="https://auth.geeksforgeeks.org/user/atharv_karnekar" target="_blank">
+                                    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="https://auth.geeksforgeeks.org/user/atharv_karnekar" height="30" width="40" />
                                 </a>
                             </li>
                             <li>
-                                <a href="" target="blank">
-                                    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="abhishekchauha22" height="30" width="40" />
+                                <a href="https://www.hackerrank.com/profile/karnekaratharv12" target="_blank">
+                                    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="karnekaratharv12" height="30" width="40" />
                                 </a>
                             </li>
                         </ul>

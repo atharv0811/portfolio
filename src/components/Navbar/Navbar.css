@@ -66,6 +66,7 @@
 @media (max-width:767px) {
     #menu {
         display: block;
+        transition: transform 0.3s ease;
     }
 
     .navbar {
@@ -77,6 +78,7 @@
         text-align: left;
         align-items: flex-start;
         background-color: #239e66;
+        transition: right .5s;
     }
 
     .navbar ul {
@@ -103,9 +105,8 @@
     .navbar ul li a.active,
     .navbar ul li a:hover {
         padding: 1rem;
-        color: #fff;
+        color: #0a4028;
         border-radius: 0.5rem;
-        border-bottom: 0.5rem solid #fff;
     }
 
     .fa-times {
