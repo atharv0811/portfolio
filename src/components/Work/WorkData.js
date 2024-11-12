@@ -1,8 +1,8 @@
 import expeseImg from '../../assets/images/expenseTracker.png'
 import imgToPdf from '../../assets/images/imgToPdf.png'
 import chatImg from '../../assets/images/chatApp.png'
-import eCommerceImg from '../../assets/images/eCommerce.png'
 import portfolio from '../../assets/images/portfolio.png'
+import urlShortner from '../../assets/images/urlShortner.png'
 
 let workData = [
     {
@@ -12,7 +12,7 @@ let workData = [
         "category": "mern",
         "links": {
             "view": "",
-            "code": ""
+            "code": "https://github.com/atharv0811/ExpenseTrackerWithAws"
         }
     },
     {
@@ -22,7 +22,17 @@ let workData = [
         "category": "mern",
         "links": {
             "view": "",
-            "code": ""
+            "code": "https://github.com/atharv0811/image-to-pdf"
+        }
+    },
+    {
+        "name": "URL Shortner",
+        "desc": "A tool that allows users to shorten long URLs.",
+        "image": urlShortner,
+        "category": "mern",
+        "links": {
+            "view": "https://url-shortner-five-ebon.vercel.app/",
+            "code": "https://github.com/atharv0811/URL-Shortner-NextJs"
         }
     },
     {
@@ -31,18 +41,8 @@ let workData = [
         "image": chatImg,
         "category": "basicweb",
         "links": {
-            "view": "",
-            "code": ""
-        }
-    },
-    {
-        "name": "E-Commerce",
-        "desc": "E-Commerce website with mern technology with integrated payment gateway.",
-        "image": eCommerceImg,
-        "category": "mern",
-        "links": {
-            "view": "",
-            "code": ""
+            "view": "https://chat-app-next-js-topaz.vercel.app/",
+            "code": "https://github.com/atharv0811/ChatAppNextJs"
         }
     },
     {
@@ -51,8 +51,8 @@ let workData = [
         "image": portfolio,
         "category": "basicweb",
         "links": {
-            "view": "",
-            "code": ""
+            "view": "https://atharv0811.github.io/portfolio/",
+            "code": "https://github.com/atharv0811/portfolio"
         }
     }
 ]
